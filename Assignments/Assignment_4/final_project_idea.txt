@@ -1,0 +1,20 @@
+1. final_project_idea.txt
+
+2. describe idea for data analysis final project
+My idea for my data analysis project is to look at how different light, soil, and mycorrhizal conditions affect the percent dry mass of NSC and Lignin in various tree species. The study I found is specifically done on seedlings from the species Acer saccharum, Prunus serotina, Quercus alba, and Quercus rubra. This means that the data analysis will focus on how different environmental conditions affect a tree seedling's survival and biomass. The relative times of death for each seedling as well as the percent dry mass lignin and NSC were all recorded. The data analysis will hopefully lead to being able to predict a tree seedling's survival based off of different environmental conditions. 
+
+3. describe the sort of data you will use, potential sources and what the data might look like
+I found my data set on Kaggle, and it's from the study "Tree seedling functional traits mediate plant-soil feedback survival responses across a gradient of light availability" by Katherine Wood, Richard Kobe, Inés Ibáñez, and Sarah McCarthy-Neumann. The study was done through Michigan State University and was published Nov 07 2023. This was an experimental study rather than an observational study so the data includes information on identification, treatments, and measurements of traits. The treatments include various light levels, and different soil cores that were collected from beneath conspecific and heterospecific adults. The main measurement was the time of death of the seedling, but other measurements such as mycorrhizal colonization and phenolics, lignin and NSC levels were also measured and recorded. 
+
+Source:
+kaggle: https://www.kaggle.com/datasets/yekenot/tree-survival-prediction/data
+original authors: https://datadryad.org/stash/dataset/doi:10.5061/dryad.xd2547dpw
+Wood, Katherine; Kobe, Richard; Ibáñez, Inés; McCarthy-Neumann, Sarah (2023). Tree seedling functional traits mediate plant-soil feedback survival responses across a gradient of light availability.
+
+
+4. create fake data or skip
+
+5. generate a plot using either real or fake data that shows at least one expected result \
+
+
+
