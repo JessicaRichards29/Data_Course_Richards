@@ -1,0 +1,25 @@
+Assignment 8
+1. Are any of your predicted response values from your best model scientifically meaningless? Explain.
+
+I wouldn't say any of the predicted response values were scientifically meaningless because they all stayed within the frame of possible values. None of them went below zero to indicate a negative growth rate, and none of them went extremely high to indicate an impossibly high growth rate. 
+
+
+2. In your plots, did you find any non-linear relationships? Do a bit of research online and give a link to at least one resource explaining how to deal with modeling non-linear relationships in R.
+
+The nitrogen definitely had a non-linear relationship. When nitrogen was low, the growth rate was low, when nitrogen was high, the growth rate was also low, but when it was around 20/25 it was relatively high. 
+https://www.geeksforgeeks.org/non-linear-regression-in-r/ 
+
+
+3. Write the code you would use to model the data found in “/Data/non_linear_relationship.csv” with a linear model (there are a few ways of doing this)
+
+model:
+model <- lm(response ~ poly(predictor, 1), data = non_linear_dat)
+summary(model)
+
+plot:
+non_linear_dat %>% 
+  ggplot(aes(x = predictor,
+             y = response)) +
+  geom_point() +
+  geom_smooth(method = "loess")
+
