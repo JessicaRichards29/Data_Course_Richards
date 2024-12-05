@@ -3,7 +3,7 @@
 #I read in data
 library(tidyverse)
 
-df <- read_csv("./Exam_1/cleaned_covid_data.csv")
+df <- read_csv("cleaned_covid_data.csv")
 View(df)
 
 #II A_states
